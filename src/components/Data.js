@@ -1,9 +1,13 @@
 import React, {Component} from 'react';
+import '../CSS/Data.css';
 
 class Data extends Component {
 	render() {
 		return(
-			<h1>This is Data</h1>
+			<div className="data-container">
+				<h3>Title</h3>
+				<p>Content</p>
+			</div>
 		)
 	}
 }

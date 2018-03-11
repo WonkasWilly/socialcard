@@ -1,12 +1,14 @@
 html, body {
 	height: 100%;
 	width: 100%;
+	background: #fffff;
 }
 
 .App {
-  height: 350px;
+  height: 400px;
   width: 500px;
   margin: 10% auto;
   position: relative;
-  border: 1px solid black;
+  border: 2px solid black;
+  border-radius: 5px;
 }

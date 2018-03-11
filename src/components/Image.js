@@ -5,7 +5,7 @@ class Image extends React.Component {
 	render() {
 		return(
 			<div className="image-container">
-				<img src="../../images/Space.jpg" alt="Random Image"/>
+				<img src="../../images/Space.jpg" alt="Space"/>
 			</div>
 		)
 	}
