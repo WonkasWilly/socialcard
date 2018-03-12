@@ -1,11 +1,18 @@
 import React, {Component} from 'react';
+import Twitter from './Twitter';
+import Instagram from './Instagram';
+import Facebook from './Facebook';
 import '../CSS/SocialMedia.css';
 
 class SocialMedia extends Component {
 	render() {
 		return(
 			<div className='social-container'>
-				<h1>Social Media Here!</h1>
+				<Twitter />
+				<Instagram />
+				<Facebook />
+				
+				
 			</div>
 		)
 	}
