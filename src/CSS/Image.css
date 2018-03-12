@@ -1,5 +1,6 @@
 .image-container {
 	height: 75%;
+	position: relative;
 }
 
 img {
