@@ -1,8 +1,17 @@
 .data-container {
-	background: #f9f7f7;
+	background: transparent;
 	height: 25%;
 }
 
-h3, p {
-	margin: 0;
+.title, .content {
+	margin: 2% 0 0 0;
+	padding: 0 5%;
+}
+
+.content {
+	padding-bottom: 5%;
+}
+
+.title {
+	text-align: center;
 }

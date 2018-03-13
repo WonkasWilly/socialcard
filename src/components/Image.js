@@ -9,7 +9,11 @@ class Image extends React.Component {
 		return(
 			<div className="image-container">
 				<img src="../../images/Space.jpg" alt="Space"/>
-				<SocialMedia />
+				<div className="socialmedia-container">
+					<SocialMedia brand='instagram' />
+					<SocialMedia brand='twitter' />
+					<SocialMedia brand='facebook' />
+				</div>		
 			</div>
 		)
 	}
