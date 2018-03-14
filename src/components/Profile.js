@@ -2,14 +2,15 @@ import React from 'react';
 import '../CSS/Profile.css';
 
 
-class Profile extends React.Component {
-	render() {
-		return(
-			<div className="profile-container">
-				<img src="https://picsum.photos/500/283/?random" alt="Profile" className="profile-picture"/>
-			</div>
-		)
+function Profile (props) {
+	function launchSocialMedia() {
+		alert('hey.')
 	}
-}
 
+	return(
+		<div className="profile-container" onClick={launchSocialMedia}>
+			<img src={props.currentPhoto} alt="Profile" className="profile-picture"/>
+		</div>
+	)
+}
 export default Profile;
