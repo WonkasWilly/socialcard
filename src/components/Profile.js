@@ -6,7 +6,7 @@ class Profile extends React.Component {
 	render() {
 		return(
 			<div className="profile-container">
-				<img src="" alt="Profile" className="profile-picture"/>
+				<img src="https://picsum.photos/500/283/?random" alt="Profile" className="profile-picture"/>
 			</div>
 		)
 	}

@@ -8,7 +8,7 @@ class Image extends React.Component {
 	render() {
 		return(
 			<div className="image-container">
-				<img src="../../images/Space.jpg" alt="Space"/>
+				<img src="https://picsum.photos/500/283/?random" alt="Space"/>
 				<div className="socialmedia-container">
 					<SocialMedia brand='instagram' />
 					<SocialMedia brand='twitter' />
