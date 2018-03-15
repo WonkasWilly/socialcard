@@ -20,12 +20,11 @@
 	color: #3b5998;
 }
 
-.instagram-logo:hover .fa-instagram {
-	 -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-	background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
-    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+.instagram-logo svg * {
+	transition: all 3s ease;
+	fill: white;
+}
+
+.instagram-logo:hover svg * {
+  	fill: url(#rg);
 }

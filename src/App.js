@@ -50,6 +50,7 @@ class App extends Component {
     this.setState({
       currentPhoto: currentPhoto,
     })
+    console.log(this.state);
 
   }
 	
